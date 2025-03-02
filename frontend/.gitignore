@@ -1,0 +1,82 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore node_modules (dependencies should be installed via package.json)
+node_modules/
+
+# Build & Distribution Folders
+dist/
+dist-ssr/
+.out/
+.next/
+.build/
+.cache/
+.nyc_output/
+coverage/
+tmp/
+*.local
+
+# Ignore Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Ignore IDE/Editor-specific files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.vs/
+Thumbs.db
+
+# Ignore package managers lock files (if using a monorepo, keep one)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore Lint and Testing cache
+.eslintcache
+.jest/
+jest.config.js
+*.test.js
+*.spec.js
+coverage/
+
+# Ignore TypeScript Build Files
+*.tsbuildinfo
+
+# Ignore Public and Temp Files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.old
+
+# Ignore Git and CI/CD-related files
+.git/
+.gitignore
+.gitattributes
+.github/
+.gitlab/
+.hg/
+.history/
+
+# Ignore OS-Specific Files
+*.orig
+.npmrc
+.npm/
+*.tgz
